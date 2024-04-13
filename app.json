@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Fae_Assignment",
+    "name": "Swiggy Clone",
     "slug": "Fae_Assignment",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "Swiggy"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "versionCode": 1,
+      "package": "com.jaishobhit.Fae_Assignment"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "10e83673-5d5d-416e-8397-792dfcfb691c"
+      }
     }
   }
 }
